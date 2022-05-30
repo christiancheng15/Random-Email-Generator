@@ -1,4 +1,4 @@
-Random Email Generator by kChris
+# Random Email Generator by kChris
 
 How it works:
 1. Add domain(s) in domain.txt (seperated by new line)
