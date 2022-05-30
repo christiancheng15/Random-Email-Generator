@@ -29,7 +29,7 @@ else:
 
 for email in catchall_list:
        generated_email = f"{random_first_name()}{random_last_name()}{random_numbers()}@{email}"
-       with open('firstname.txt', 'a') as f:
+       with open('output.txt', 'a') as f:
               f.write(f"{generated_email}\n")
 
 print(f"Successfully generated {num_emails} emails")
